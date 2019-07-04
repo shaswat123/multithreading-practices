@@ -4,11 +4,11 @@ import java.util.concurrent.TimeUnit;
 
 public class LoopTaskA implements Runnable {
 
-    private static int count = 0;
-    private static int id;
 
-    public LoopTaskA() {
-        this.id= ++count;
+    private volatile Integer id;
+
+    public LoopTaskA(Integer id) {
+        this.id= id;
     }
 
     public void run() {

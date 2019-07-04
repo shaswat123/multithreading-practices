@@ -1,4 +1,4 @@
-package com.basic.exceuters;
+package com.basic.naming;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +13,7 @@ public class LoopTaskB implements Runnable {
 
     public void run() {
 
-        System.out.println("Task Id " + id + " Starting" +"With thread name "+Thread.currentThread().getName()) ;
+        System.out.println("Task Id " + id + " Starting " +"With thread name "+Thread.currentThread().getName()) ;
 
         for (int i = 10; i > 0; i--) {
             System.out.println("Task Id " + id + " Tick " + i);

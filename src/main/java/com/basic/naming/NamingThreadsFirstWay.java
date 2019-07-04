@@ -1,4 +1,4 @@
-package com.basic.exceuters;
+package com.basic.naming;
 
 public class NamingThreadsFirstWay {
 
