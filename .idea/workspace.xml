@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbfce81-f26c-4292-95b8-1cb794c91aac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsSecondWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/TaskResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadExceutorsWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadfactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorOneFixedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorOneFixedThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorThreeSingleTaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorThreeSingleTaskExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorTwoCachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorTwoCachedThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/LoopTaskA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/exceuters/LoopTaskA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/naming/LoopTaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/naming/LoopTaskB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingExecutorsCachedPoolThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingExecutorsCachedPoolThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingExecutorsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingExecutorsThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingThreadsFirstWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingThreadsFirstWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingThreadsSecondWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/naming/NamingThreadsSecondWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/FirstWayReturnValueThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/FirstWayReturnValueThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ResultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ResultListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/SumResultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/SumResultListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorOneFixedThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorOneFixedThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/exceuters/LoopTaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/exceuters/LoopTaskA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskReturnMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskReturnMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,67 +37,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadExceutorsWay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadfactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#654#683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="37" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsSecondWay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#872#881#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/TaskResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-              </folding>
+              <caret line="30" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/LoopTaskB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="11" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -198,6 +164,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/basic/retvalues/TaskResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/DaemonThreadExceutorsWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadfactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadExceutorsWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java" />
       </list>
     </option>
   </component>
@@ -230,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +242,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="daemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="exceuters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,21 +269,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="retvalues" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multithreading-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="terminate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -326,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalculationTaskReturnMain">
+  <component name="RunManager" selected="Application.TerminateThreadsFirstWay">
     <configuration name="CalculationTaskReturnMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.basic.retvalues.CalculationTaskReturnMain" />
       <module name="multithreading-practices" />
@@ -340,25 +312,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstWayReturnValueThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.retvalues.FirstWayReturnValueThread" />
+    <configuration name="DaemonThreadExceutorsWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.daemon.DaemonThreadExceutorsWay" />
       <module name="multithreading-practices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.retvalues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NamingExecutorsCachedPoolThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.naming.NamingExecutorsCachedPoolThread" />
-      <module name="multithreading-practices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.basic.naming.*" />
+          <option name="PATTERN" value="com.basic.daemon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,13 +351,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TerminateThreadsFirstWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.terminate.TerminateThreadsFirstWay" />
+      <module name="multithreading-practices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.terminate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TerminateThreadsFirstWay" />
+        <item itemvalue="Application.DaemonThreadExceutorsWay" />
         <item itemvalue="Application.CalculationTaskReturnMain" />
         <item itemvalue="Application.ReturningValueUsingExecutorsSecondWay" />
         <item itemvalue="Application.ReturningValueUsingExecutorsFirstWay" />
-        <item itemvalue="Application.FirstWayReturnValueThread" />
-        <item itemvalue="Application.NamingExecutorsCachedPoolThread" />
       </list>
     </recent_temporary>
   </component>
@@ -417,21 +389,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -552,26 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamingExecutorsThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamingExecutorsCachedPoolThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -593,6 +546,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="19" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="35" selection-start-line="11" selection-start-column="4" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsSecondWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/TaskResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamingExecutorsThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadExceutorsWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadfactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -619,74 +659,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/LoopTaskB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="30" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/TaskResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsSecondWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#872#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#683#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
         </state>
       </provider>
     </entry>
