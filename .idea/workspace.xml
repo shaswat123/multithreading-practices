@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbfce81-f26c-4292-95b8-1cb794c91aac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadExceutorsWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadfactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadSecondWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminatingBlockedThreads.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskReturnMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskReturnMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,52 +23,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="30">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="50" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="35" column="95" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#835#844#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminatingBlockedThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadExceutorsWay.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadSecondWay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadfactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="432">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -79,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -170,6 +166,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadSecondWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskE.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminatingBlockedThreads.java" />
       </list>
     </option>
   </component>
@@ -202,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +270,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="retvalues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="terminate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -276,7 +286,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TerminateThreadsFirstWay">
+  <component name="RunManager" selected="Application.TerminatingBlockedThreads">
     <configuration name="CalculationTaskReturnMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.basic.retvalues.CalculationTaskReturnMain" />
       <module name="multithreading-practices" />
@@ -325,25 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturningValueUsingExecutorsFirstWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.retvalues.ReturningValueUsingExecutorsFirstWay" />
+    <configuration name="TerminateThreadSecondWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.terminate.TerminateThreadSecondWay" />
       <module name="multithreading-practices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.retvalues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReturningValueUsingExecutorsSecondWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.retvalues.ReturningValueUsingExecutorsSecondWay" />
-      <module name="multithreading-practices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.basic.retvalues.*" />
+          <option name="PATTERN" value="com.basic.terminate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,13 +360,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TerminatingBlockedThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.terminate.TerminatingBlockedThreads" />
+      <module name="multithreading-practices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.terminate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TerminatingBlockedThreads" />
+        <item itemvalue="Application.TerminateThreadSecondWay" />
         <item itemvalue="Application.TerminateThreadsFirstWay" />
         <item itemvalue="Application.DaemonThreadExceutorsWay" />
         <item itemvalue="Application.CalculationTaskReturnMain" />
-        <item itemvalue="Application.ReturningValueUsingExecutorsSecondWay" />
-        <item itemvalue="Application.ReturningValueUsingExecutorsFirstWay" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +400,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -619,6 +628,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/DaemonThreadExceutorsWay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -633,6 +659,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -664,34 +697,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadSecondWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateThreadsFirstWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="432">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" column="95" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#835#844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminatingBlockedThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
         </state>
       </provider>
     </entry>
