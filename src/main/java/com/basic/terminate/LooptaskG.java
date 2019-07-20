@@ -1,6 +1,5 @@
 package com.basic.terminate;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;

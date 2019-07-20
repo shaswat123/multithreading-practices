@@ -2,10 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbfce81-f26c-4292-95b8-1cb794c91aac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/waiting/CountDownLatchTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/waiting/JoinThreadsFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/waiting/JoiningExecutorsThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingExecutorFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForFixedDelayRepeatedExecutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForFixedRateRepeatedExecutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForOneTimeExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/TimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ValueReturningSchedulingTaskCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/basic/terminate/LooptaskG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/basic/terminate/LooptaskG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/daemon/DaemonThreadExceutorsWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/daemon/DaemonThreadExceutorsWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/daemon/DaemonThreadfactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/daemon/DaemonThreadfactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/daemon/LoopTaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/daemon/LoopTaskC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorOneFixedThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorOneFixedThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorThreeSingleTaskExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorThreeSingleTaskExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorTwoCachedThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/exceuters/ExecutorTwoCachedThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/exceuters/LoopTaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/exceuters/LoopTaskA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/naming/LoopTaskB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/naming/LoopTaskB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/naming/NamedThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/naming/NamedThreadFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingExecutorsCachedPoolThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingExecutorsCachedPoolThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingExecutorsThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingExecutorsThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingThreadsFirstWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingThreadsFirstWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingThreadsSecondWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/naming/NamingThreadsSecondWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskCallableReturningBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskCallableReturningBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskReturnMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/CalculationTaskReturnMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/FirstWayReturnValueThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/FirstWayReturnValueThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ResultListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ResultListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ReturningValueUsingExecutorsSecondWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ReturningValueUsingExecutorsSecondWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/SumResultListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/SumResultListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/TaskResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/TaskResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ValueReturningTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ValueReturningTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ValueReturningTaskCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/retvalues/ValueReturningTaskCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/LoopTaskH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/LooptaskG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/LooptaskG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateExecutorSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateExecutorSecond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateExecutorThreadFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateExecutorThreadFirst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateThreadSecondWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateThreadSecondWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateThreadsFirstWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminateThreadsFirstWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminatingBlockedThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/terminate/TerminatingBlockedThreads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFifth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFifth$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFifth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFifth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFirst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFou.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFourth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadFourth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadSec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadSec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadSecond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadThird.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadThird.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadThr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/threads/CreateThreadThr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/ExceutorHandlingUncaughtExceptionEachThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/ExceutorHandlingUncaughtExceptionEachThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/HandleUncaughtExceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/HandleUncaughtExceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/HandleUncaughtExceptionsPerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/HandleUncaughtExceptionsPerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/TaskThrowinRunTimeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/TaskThrowinRunTimeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/ThreadExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/ThreadExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/ThreadFactoryWithExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/uncaughtExceptions/ThreadFactoryWithExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/waiting/CountDownLatchTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/waiting/CountDownLatchTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/waiting/JoinThreadsFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/waiting/JoinThreadsFirst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/basic/waiting/JoiningExecutorsThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/basic/waiting/JoiningExecutorsThread.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,19 +82,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/uncaughtExceptions/TaskThrowinRunTimeException.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamedThreadFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="75">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +103,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/uncaughtExceptions/ThreadFactoryWithExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/uncaughtExceptions/ExceutorHandlingUncaughtExceptionEachThread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+            <state relative-caret-position="465">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,19 +127,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/JoinThreadsFirst.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ValueReturningSchedulingTaskCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingExecutorFirst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/JoiningExecutorsThread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForFixedRateRepeatedExecutions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,43 +187,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/CountDownLatchTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="122" selection-start-line="42" selection-start-column="122" selection-end-line="42" selection-end-column="122" />
+            <state relative-caret-position="535">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/SumResultListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/LoopTaskB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,15 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/threads/CreateThreadFirst.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/threads/CreateThreadSecond.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/threads/CreateThreadThird.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/threads/CreateThreadFourth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/threads/CreateThreadFifth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorTwoCachedThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/exceuters/LoopTaskA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorOneFixedThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorThreeSingleTaskExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/exceuters/LoopTaskB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/exceuters/NamingThreadsFirstWay.java" />
@@ -184,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskE.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminatingBlockedThreads.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskF.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LooptaskG.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateExecutorThreadFirst.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskH.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateExecutorSecond.java" />
@@ -197,6 +255,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/basic/waiting/JoinThreadsFirst.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/waiting/CountDownLatchTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/basic/waiting/JoiningExecutorsThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/TimeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/terminate/LooptaskG.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForOneTimeExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForFixedDelayRepeatedExecutions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForFixedRateRepeatedExecutions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ValueReturningSchedulingTaskCallable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingExecutorFirst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors.java" />
       </list>
     </option>
   </component>
@@ -219,9 +287,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -229,6 +298,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,7 +358,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="retvalues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="terminate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="uncaughtExceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multithreading-practices" type="b2602c69:ProjectViewProjectNode" />
@@ -302,8 +409,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,13 +430,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JoiningExecutorsThread">
-    <configuration name="ExceutorHandlingUncaughtExceptionEachThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.uncaughtExceptions.ExceutorHandlingUncaughtExceptionEachThread" />
+  <component name="RunManager" selected="Application.ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors">
+    <configuration name="ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.scheduling.ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors" />
       <module name="multithreading-practices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.uncaughtExceptions.*" />
+          <option name="PATTERN" value="com.basic.scheduling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +444,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleUncaughtExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.uncaughtExceptions.HandleUncaughtExceptions" />
+    <configuration name="SchedulingExecutorFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.scheduling.SchedulingExecutorFirst" />
       <module name="multithreading-practices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.uncaughtExceptions.*" />
+          <option name="PATTERN" value="com.basic.scheduling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,12 +457,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleUncaughtExceptionsPerThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.uncaughtExceptions.HandleUncaughtExceptionsPerThread" />
+    <configuration name="SchedulingTaskForFixedDelayRepeatedExecutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.scheduling.SchedulingTaskForFixedDelayRepeatedExecutions" />
       <module name="multithreading-practices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.uncaughtExceptions.*" />
+          <option name="PATTERN" value="com.basic.scheduling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,12 +470,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinThreadsFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.waiting.JoinThreadsFirst" />
+    <configuration name="SchedulingTaskForFixedRateRepeatedExecutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.scheduling.SchedulingTaskForFixedRateRepeatedExecutions" />
       <module name="multithreading-practices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.waiting.*" />
+          <option name="PATTERN" value="com.basic.scheduling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,12 +483,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoiningExecutorsThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basic.waiting.JoiningExecutorsThread" />
+    <configuration name="SchedulingTaskForOneTimeExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basic.scheduling.SchedulingTaskForOneTimeExecution" />
       <module name="multithreading-practices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basic.waiting.*" />
+          <option name="PATTERN" value="com.basic.scheduling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,11 +498,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JoiningExecutorsThread" />
-        <item itemvalue="Application.JoinThreadsFirst" />
-        <item itemvalue="Application.ExceutorHandlingUncaughtExceptionEachThread" />
-        <item itemvalue="Application.HandleUncaughtExceptionsPerThread" />
-        <item itemvalue="Application.HandleUncaughtExceptions" />
+        <item itemvalue="Application.ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors" />
+        <item itemvalue="Application.SchedulingExecutorFirst" />
+        <item itemvalue="Application.SchedulingTaskForFixedRateRepeatedExecutions" />
+        <item itemvalue="Application.SchedulingTaskForFixedDelayRepeatedExecutions" />
+        <item itemvalue="Application.SchedulingTaskForOneTimeExecution" />
       </list>
     </recent_temporary>
   </component>
@@ -415,25 +520,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31473532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32689556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32823366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32823366" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32823366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,22 +546,22 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31473532" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32689556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32823366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32823366" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32823366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,115 +570,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorTwoCachedThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamingThreadsFirstWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/naming/NamingThreadsSecondWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorOneFixedThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/exceuters/ExecutorThreeSingleTaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/exceuters/LoopTaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="19" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsFirstWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="35" selection-start-line="11" selection-start-column="4" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ReturningValueUsingExecutorsSecondWay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -590,16 +586,6 @@
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,16 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LooptaskG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/TerminateExecutorThreadFirst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -794,6 +770,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/uncaughtExceptions/TaskThrowinRunTimeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -821,16 +804,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/SumResultListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/uncaughtExceptions/ExceutorHandlingUncaughtExceptionEachThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="225">
           <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -838,10 +814,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LoopTaskD.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/JoinThreadsFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="420">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/JoiningExecutorsThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/terminate/LooptaskG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/TimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForFixedDelayRepeatedExecutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/CountDownLatchTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="122" selection-start-line="42" selection-start-column="122" selection-end-line="42" selection-end-column="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/SumResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -856,34 +903,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/JoinThreadsFirst.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForFixedRateRepeatedExecutions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/daemon/LoopTaskC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/CountDownLatchTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="122" selection-start-line="42" selection-start-column="122" selection-end-line="42" selection-end-column="122" />
+        <state relative-caret-position="225">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/waiting/JoiningExecutorsThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingTaskForOneTimeExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskCallableReturningBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/CalculationTaskReturnMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/retvalues/ValueReturningTaskCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ValueReturningSchedulingTaskCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/SchedulingExecutorFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basic/scheduling/ScheduleTaskForFixedDelayRepeatedExecutionsUsingExecutors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
